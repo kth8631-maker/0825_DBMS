@@ -614,7 +614,7 @@ SELECT
        EMPLOYEE
  ORDER
     BY
-       SALARY DESC
+       SALARY DESC NULLS LAST
 OFFSET 0 ROWS FETCH NEXT 5 ROWS ONLY;
 -- 0개를 건너 뛰고 그 다음 5행을 반환받겠다.
 
